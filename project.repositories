@@ -3,9 +3,49 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>miremote</id>
+        <url>https://pkgs.d.xiaomi.net/artifactory/maven-remote-virtual</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>snapshots</id>
+        <url>https://pkgs.d.xiaomi.net:443/artifactory/maven-snapshot-virtual</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
+        <url>https://pkgs.d.xiaomi.net:443/artifactory/maven-release-virtual</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>guvnor-m2-repo-1</id>
+        <url>http://10.38.160.146:8341/kie-wb/maven2/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/home/work/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>guvnor-m2-repo</id>
+        <url>http://10.38.160.194:8341/kie-wb/maven2/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>
