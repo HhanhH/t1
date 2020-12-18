@@ -1,4 +1,4 @@
-package com.mi.cfc.loan.rule.client.model;
+package com.myspace.t1;
 
 import com.mi.cfc.loan.common.util.json.JSON;
 import org.apache.http.client.methods.CloseableHttpResponse;
