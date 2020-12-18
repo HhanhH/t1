@@ -6,12 +6,23 @@ package com.myspace.t1;
 
 public class People implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public People() {
-    }
+	private java.lang.Long age;
 
+	public People() {
+	}
 
+	public java.lang.Long getAge() {
+		return this.age;
+	}
 
+	public void setAge(java.lang.Long age) {
+		this.age = age;
+	}
+
+	public People(java.lang.Long age) {
+		this.age = age;
+	}
 
 }
