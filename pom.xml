@@ -45,6 +45,11 @@
       <version>1.4.11.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.mi.cfc</groupId>
+      <artifactId>loan-rule-client-model</artifactId>
+      <version>1.0.3-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
