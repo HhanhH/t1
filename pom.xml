@@ -48,22 +48,7 @@
     <dependency>
       <groupId>com.mi.cfc</groupId>
       <artifactId>loan-rule-client-model</artifactId>
-      <version>1.0.3-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpcore</artifactId>
-      <version>4.4.10</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpclient</artifactId>
-      <version>4.5.6</version>
-    </dependency>
-    <dependency>
-      <groupId>com.mi.cfc</groupId>
-      <artifactId>loan-common-util</artifactId>
-      <version>1.2.36</version>
+      <version>1.0.4-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
