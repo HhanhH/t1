@@ -28,7 +28,7 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>身高</header>
+          <header>sdfg</header>
           <constraintValueType>1</constraintValueType>
           <factField>high</factField>
           <fieldType>String</fieldType>
@@ -72,11 +72,7 @@
     <entries/>
   </auditLog>
   <imports>
-    <imports>
-      <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.mi.cfc.loan.rule.client.model.EnumHttpTest</type>
-      </org.kie.soup.project.datamodel.imports.Import>
-    </imports>
+    <imports/>
   </imports>
   <packageName>com.myspace.t1</packageName>
   <version>739</version>
