@@ -17,7 +17,7 @@ import java.util.List;
  */
 public class EnumHttpTest {
 
-	public EnumHttpTest EnumHttpTest() {
+	public EnumHttpTest() {
 	}
 
 	public List<String> list() {
