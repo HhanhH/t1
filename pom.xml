@@ -48,7 +48,7 @@
     <dependency>
       <groupId>com.mi.cfc</groupId>
       <artifactId>loan-rule-client-model</artifactId>
-      <version>1.0.4-SNAPSHOT</version>
+      <version>1.0.5-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
