@@ -34,7 +34,7 @@
           <fieldType>Long</fieldType>
           <operator>==</operator>
           <parameters/>
-          <binding>age</binding>
+          <binding>年龄</binding>
         </condition-column52>
       </conditions>
       <window>
