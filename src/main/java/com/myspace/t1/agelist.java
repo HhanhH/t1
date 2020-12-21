@@ -13,7 +13,7 @@ public class agelist implements java.io.Serializable {
 	private static final int TIMEOUT = 3000;
 
 	public java.util.List<Long> list() {
-		String url = "http://localhost:8001/demo/list/getList";
+		String url = "http://10.241.54.126:8001/demo/list/getList";
 		java.net.URL uUrl = null;
 		java.net.HttpURLConnection conn = null;
 		java.io.BufferedReader in = null;
