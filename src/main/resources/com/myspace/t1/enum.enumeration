@@ -1,1 +1,1 @@
-'People.high' : (new EnumHttpTest()).list()
+'People.high' : (new enumlist()).list()
