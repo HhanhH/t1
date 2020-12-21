@@ -113,7 +113,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1</valueString>
+        <valueString>1L</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
