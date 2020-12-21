@@ -1,5 +1,4 @@
 package com.myspace.t1;
-
 import com.mi.cfc.loan.common.util.json.JSON;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
