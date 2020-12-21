@@ -17,10 +17,10 @@ import java.util.List;
  */
 public class EnumHttpTest {
 
-	public List<Long> list() {
-		List<Long> list = new ArrayList<>();
-		list.add(1L);
-		list.add(2L);
+	public List<String> list() {
+		List<String> list = new ArrayList<>();
+		list.add("1L");
+		list.add("2L");
 		return list;
 	}
 	public List<Long> getList() {
