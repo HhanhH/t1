@@ -6,12 +6,52 @@ package com.myspace.t1;
 
 public class agelist implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public agelist() {
-    }
+	public agelist() {
+	}
+	private static final int TIMEOUT = 3000;
 
-
-
+	public java.util.List<Long> list() {
+		String url = "http://localhost:8001/demo/list/getList";
+		java.net.URL uUrl = null;
+		java.net.HttpURLConnection conn = null;
+		java.io.BufferedReader in = null;
+		try {
+			// 创建和初始化连接
+			uUrl = new java.net.URL(url);
+			conn = (java.net.HttpURLConnection) uUrl.openConnection();
+			conn.setRequestProperty("content-type", "application/json");
+			conn.setRequestMethod("GET");
+			conn.setDoOutput(true);
+			conn.setDoInput(true);
+			// 设置连接超时时间
+			conn.setConnectTimeout(TIMEOUT);
+			// 设置读取超时时间
+			conn.setReadTimeout(TIMEOUT);
+			// 接收返回结果
+			StringBuilder resultb = new StringBuilder();
+			in = new java.io.BufferedReader(new java.io.InputStreamReader(
+					conn.getInputStream(), "utf-8"));
+			if (in != null) {
+				String line = "";
+				while ((line = in.readLine()) != null) {
+					resultb.append(line);
+				}
+			}
+			String result = resultb.toString();
+			String res = result.substring(1, result.length() - 1);
+			String[] rr = res.split(",");
+			java.util.List<Long> r = new java.util.ArrayList<>(rr.length);
+			for (String item : rr) {
+				r.add(Long.parseLong(item));
+			}
+			return r;
+		} catch (java.net.ProtocolException e) {
+		} catch (java.net.MalformedURLException e) {
+		} catch (java.io.IOException e) {
+		}
+		return java.util.Collections.emptyList();
+	}
 
 }
