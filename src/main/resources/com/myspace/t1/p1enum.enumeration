@@ -1,2 +1,2 @@
 'People.high' : (new com.myspace.t1.enumlist()).list()
-'People.age' : (new com.mi.cfc.loan.rule.client.model.EnumHttpTest()).list()
+'People.age' : (new com.myspace.t1.EnumHttpTest()).list()
