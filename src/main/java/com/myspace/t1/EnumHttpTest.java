@@ -41,7 +41,4 @@ public class EnumHttpTest {
 			return Collections.emptyList();
 		}
 	}
-	public EnumHttpTest() {
-	}
-
 }
