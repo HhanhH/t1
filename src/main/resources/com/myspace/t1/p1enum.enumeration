@@ -1,2 +1,2 @@
 'People.high' : (new com.myspace.t1.enumlist()).list()
-'People.age' : (new com.myspace.t1.EnumHttpTest()).list()
+'People.age' : (new com.myspace.t1.agelist()).list()
