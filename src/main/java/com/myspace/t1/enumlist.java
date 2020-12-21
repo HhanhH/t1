@@ -10,7 +10,7 @@ public class enumlist implements java.io.Serializable {
 	public enumlist() {
 	}
 
-	public List<String> list() {
+	public java.util.List<String> list() {
 		java.util.List<String> list = new java.util.ArrayList<>();
 		list.add("1L");
 		list.add("2L");
