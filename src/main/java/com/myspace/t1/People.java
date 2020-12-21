@@ -10,6 +10,8 @@ public class People implements java.io.Serializable {
 
 	private java.lang.Long age;
 
+	private java.lang.String high;
+
 	public People() {
 	}
 
@@ -21,8 +23,17 @@ public class People implements java.io.Serializable {
 		this.age = age;
 	}
 
-	public People(java.lang.Long age) {
+	public java.lang.String getHigh() {
+		return this.high;
+	}
+
+	public void setHigh(java.lang.String high) {
+		this.high = high;
+	}
+
+	public People(java.lang.Long age, java.lang.String high) {
 		this.age = age;
+		this.high = high;
 	}
 
 }
