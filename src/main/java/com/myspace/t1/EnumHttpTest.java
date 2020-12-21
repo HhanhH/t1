@@ -26,19 +26,5 @@ public class EnumHttpTest {
 		list.add("2L");
 		return list;
 	}
-	public List<Long> getList() {
-		String url = "http://localhost:8001/demo/list/getList";
-		URI uri = URI.create(url);
-		HttpGet httpGet = new HttpGet(uri);
-		CloseableHttpClient httpClient = HttpClients.createDefault();
-		try {
-			CloseableHttpResponse response = httpClient.execute(httpGet);
-			String result = EntityUtils.toString(response.getEntity());
-			List<Long> res = JSON.parseCollection(result, List.class,
-					Long.class);
-			return res;
-		} catch (IOException e) {
-			return Collections.emptyList();
-		}
-	}
+
 }
