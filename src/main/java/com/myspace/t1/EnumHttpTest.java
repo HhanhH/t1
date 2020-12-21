@@ -17,6 +17,9 @@ import java.util.List;
  */
 public class EnumHttpTest {
 
+	public EnumHttpTest EnumHttpTest() {
+	}
+
 	public List<String> list() {
 		List<String> list = new ArrayList<>();
 		list.add("1L");
