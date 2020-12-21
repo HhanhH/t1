@@ -88,7 +88,11 @@
     <entries/>
   </auditLog>
   <imports>
-    <imports/>
+    <imports>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.mi.cfc.loan.rule.client.model.EnumHttpTest</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+    </imports>
   </imports>
   <packageName>com.myspace.t1</packageName>
   <version>739</version>
