@@ -14,9 +14,9 @@ import java.util.List;
  * @Author hanhong
  * @Date 2020/12/18 17:57
  */
-public class EnumHttpTest {
+public class EnumHttpTest1 {
 
-	public EnumHttpTest() {
+	public EnumHttpTest1() {
 	}
 
 	public List<String> list() {
