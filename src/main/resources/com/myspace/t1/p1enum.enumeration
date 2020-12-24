@@ -1,2 +1,1 @@
 'People.age' : ['1=1岁']
-'People.high' : (new com.myspace.t1.enumlist()).list()
