@@ -16,8 +16,11 @@ public class enumlist implements java.io.Serializable {
 		list.add("2L");
 		return list;
 	}
-	public String getlist() {
-		return "['1=1岁','2=2sui']";
+	public List<String> getlist() {
+		java.util.List<String> list = new java.util.ArrayList<>();
+		list.add("1=1岁");
+		list.add("2=2岁");
+		return list;
 	}
 
 }
