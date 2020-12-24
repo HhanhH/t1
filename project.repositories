@@ -19,6 +19,14 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>local</id>
+        <url>/home/work/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>central</id>
         <url>https://pkgs.d.xiaomi.net:443/artifactory/maven-release-virtual</url>
         <source>SETTINGS</source>
@@ -30,14 +38,6 @@
         <id>guvnor-m2-repo-1</id>
         <url>http://10.38.160.146:8341/kie-wb/maven2/</url>
         <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>local</id>
-        <url>/home/work/.m2/repository</url>
-        <source>LOCAL</source>
       </metadata>
     </repository>
     <repository>
