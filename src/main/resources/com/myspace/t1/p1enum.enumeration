@@ -1,2 +1,0 @@
-'People.age' : (new com.mi.cfc.loan.rule.client.model.EnumHttpTest()).get()
-'People.high' : (new com.mi.cfc.loan.rule.client.model.EnumHttpTest()).get()
