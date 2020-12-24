@@ -16,7 +16,7 @@ public class enumlist implements java.io.Serializable {
 		list.add("2L");
 		return list;
 	}
-	public List<String> getlist() {
+	public java.util.List<String> getlist() {
 		java.util.List<String> list = new java.util.ArrayList<>();
 		list.add("1=1岁");
 		list.add("2=2岁");
