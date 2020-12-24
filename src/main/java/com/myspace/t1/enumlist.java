@@ -17,7 +17,7 @@ public class enumlist implements java.io.Serializable {
 		return list;
 	}
 	public String getlist() {
-		return "['1=1岁']";
+		return "['1=1岁','2=2sui']";
 	}
 
 }
