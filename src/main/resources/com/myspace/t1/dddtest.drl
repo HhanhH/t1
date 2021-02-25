@@ -1,2 +1,6 @@
 package com.myspace.t1;
 
+rule "rule"
+when
+then
+end
